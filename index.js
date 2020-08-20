@@ -96,17 +96,7 @@ const indexCalculate=(name)=>{
    
 
 };
-/*
-testing firebase
 
-
-async function getUsers(){
-    let response = await fetch(`https://react-app-c665c.firebaseio.com/ingredients.json`);
-    let data = await response.json();
-    return data;
-}
-*/
-getUsers().then(data=>console.log(data));
 
 
 
